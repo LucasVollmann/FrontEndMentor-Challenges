@@ -1,4 +1,4 @@
-# Frontend Mentor - Intro component with sign up form solution
+## Frontend Mentor - Intro component with sign up form solution
 
 ![](./design/desktop-preview.jpg)
 
@@ -13,8 +13,10 @@ O desafio proposto é desenvolver o projeto da forma mais leal ao design origina
 
 ### Design
 
-![Original](./design/desktop-design.jpg)
-![Reprodução](./design/final-design.jpg)
+<p>
+  <img src="https://github.com/LucasVollmann/FrontEndMentor-Challenges/blob/main/newbie/intro-component-with-signup-form/design/final-design.jpg" width="80%" />
+  <p align="center">Reprodução</p>
+</p>
 
 ### Desenvolvimento
 
