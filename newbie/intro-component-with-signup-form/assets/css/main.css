@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, button {
+  outline: none;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ff7a7a;
+}
+
+.container-intro {
+  color: #fff;
+}
+
+.container-intro h1 {
+  font-size: 2.5rem;
+  line-height: 45px;
+  margin-bottom: 25px;
+}
+
+.container-intro p {
+  font-size: .9rem;
+}
+
+.container-form .offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #6055a5;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  -webkit-box-shadow: 0px 7.5px 0px 0px rgba(62, 60, 73, 0.25);
+          box-shadow: 0px 7.5px 0px 0px rgba(62, 60, 73, 0.25);
+  padding: 15px 45px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.container-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 7.5px 0px 0px rgba(62, 60, 73, 0.25);
+          box-shadow: 0px 7.5px 0px 0px rgba(62, 60, 73, 0.25);
+}
+
+.container-form form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  border: 0.5px solid #b9b6d3;
+  border-radius: 5px;
+  margin: 15px 0 2.5px 0;
+}
+
+.container-form form label:first-child {
+  margin: 0 0 2.5px 0;
+}
+
+.container-form form label:focus-within {
+  border: 0.5px solid #6055a5;
+}
+
+.container-form form label.error-label {
+  border: 2px solid #ff7a7a;
+}
+
+.container-form form label.error-label input {
+  color: #ff7a7a;
+}
+
+.container-form form label.error-label .error-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+}
+
+.container-form form label input {
+  width: 90%;
+  font-weight: 600;
+  font-size: .9rem;
+  color: #3e3c49;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.container-form form label .error-icon {
+  display: none;
+}
+
+.container-form form .error-msg {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  color: #ff7a7a;
+  font-size: .7rem;
+  font-style: italic;
+}
+
+.container-form form button {
+  width: 100%;
+  margin: 15px 0 10px 0;
+  background-color: #38cc8c;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.container-form form p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #b9b6d3;
+}
+
+.container-form form p a {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #ff7a7a;
+  cursor: pointer;
+}
+
+form {
+  background-color: #fff;
+}
+
+@media (max-width: 950px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../img/bg-intro-mobile.png");
+    height: auto;
+  }
+  .container-intro {
+    margin-top: 75px;
+    width: 85%;
+    max-width: 450px;
+    text-align: center;
+  }
+  .container-form {
+    width: 85%;
+    max-width: 450px;
+    margin: 75px auto;
+  }
+  .container-form form {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 950px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../img/bg-intro-desktop.png");
+  }
+  .container-intro {
+    width: 35%;
+  }
+  .container-form {
+    width: 35%;
+    margin-left: 50px;
+  }
+  .container-form form {
+    padding: 30px;
+  }
+  .container-form form label {
+    cursor: text;
+  }
+  .container-form form button {
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .container-form form button:hover {
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+    opacity: .8;
+  }
+  .container-form form p a {
+    cursor: pointer;
+  }
+  .container-form form p a:hover {
+    border-bottom: 1px solid #ff7a7a;
+  }
+}
+/*# sourceMappingURL=main.css.map */
