@@ -14,7 +14,7 @@ O desafio proposto é desenvolver o projeto da forma mais leal ao design origina
 ### Design
 
 <p>
-  <img src="https://github.com/LucasVollmann/FrontEndMentor-Challenges/blob/main/newbie/intro-component-with-signup-form/design/final-design.jpg" width="80%" />
+  <img src="https://github.com/LucasVollmann/FrontEndMentor-Challenges/blob/main/newbie/intro-component-with-signup-form/design/final-design.jpg" />
   <p align="center">Reprodução</p>
 </p>
 
