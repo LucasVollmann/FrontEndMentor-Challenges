@@ -1,4 +1,4 @@
-## FrontEndMentor - Intro component with sign up form
+# FrontEndMentor - Intro component with sign up form
 
 ![](./design/desktop-preview.jpg)
 
